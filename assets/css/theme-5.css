@@ -471,7 +471,7 @@ mark,
 }
 
 .list-inline-item {
-    display: inline-block
+    display: inline-block;
 }
 
 .list-inline-item:not(:last-child) {
@@ -2002,7 +2002,7 @@ pre code {
 .table-active,
 .table-active>th,
 .table-active>td {
-    background-color: rgba(0, 0, 0, 0.075)
+    background-color: rgba(253, 0, 0, 0.075)
 }
 
 .table-hover .table-active:hover {
@@ -10960,7 +10960,7 @@ h6 {
 }
 
 .header .nav-item.active .nav-link {
-    color: rgba(0, 0, 0, 0.5)
+    color: white
 }
 
 .header .nav-item.active .nav-link:hover {
@@ -10985,7 +10985,7 @@ h6 {
 }
 
 .profile-section .bio a {
-    color: #fff;
+    color: black;
     text-decoration: underline
 }
 
@@ -11001,7 +11001,7 @@ h6 {
     text-align: center;
     border-radius: 50%;
     transition: all 0.4s ease-in-out;
-    background-color: #fff
+    background-color: black
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11043,6 +11043,7 @@ h6 {
 
 .footer {
     color: rgba(255, 255, 255, 0.7)
+    
 }
 
 .footer a {
